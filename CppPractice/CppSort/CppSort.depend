@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1737064050 source:c:\users\aftab\documents\devfolder\dsa_practice\cpppractice\cppsort\main.cpp
+	<iostream>
+	<vector>
+
