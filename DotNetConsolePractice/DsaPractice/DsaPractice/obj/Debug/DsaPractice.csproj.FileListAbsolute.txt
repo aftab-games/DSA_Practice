@@ -1,0 +1,7 @@
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\bin\Debug\DsaPractice.exe.config
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\bin\Debug\DsaPractice.exe
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\bin\Debug\DsaPractice.pdb
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\obj\Debug\DsaPractice.csproj.AssemblyReference.cache
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\obj\Debug\DsaPractice.csproj.CoreCompileInputs.cache
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\obj\Debug\DsaPractice.exe
+C:\Users\Aftab\Documents\DevFolder\DSA_Practice\DotNetConsolePractice\DsaPractice\DsaPractice\obj\Debug\DsaPractice.pdb
