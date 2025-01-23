@@ -6,12 +6,12 @@ namespace Aftab.DSA.PatternPrint
 	{
 		public static void Main(string[] args)
 		{
-            int rows = 27;
+            int rows = 26;
             for (int row = 0; row < rows; row++)
             {
                 for (int star = 0; star <= row; star++)
                 {
-                    int charVal = 64 + star;
+                    int charVal = 65 + star; //'A' + star;
                     Console.Write((char)charVal + " ");
                 }
                 Console.WriteLine();
