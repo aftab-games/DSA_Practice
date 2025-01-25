@@ -8,6 +8,7 @@ namespace DsaPractice
         {
             BubbleSort();
             InsertionSort();
+            QuickSort();
         }
 
         static void BubbleSort()
@@ -30,6 +31,20 @@ namespace DsaPractice
             Console.WriteLine("Insertion Sort - Unsorted Array: " + string.Join(", ", myArray));
             InsertionSort insertionSort = new InsertionSort();
             insertionSort.Sort(myArray);
+            Console.WriteLine("Sorted Array: " + string.Join(", ", myArray));
+        }
+
+        static void QuickSort()
+        {
+            Random randomNumber = new Random();
+            int[] myArray = new int[10]; // {9, 3, 5, 2, 6, 1, 8, 4, 14, 17, 3, 7, 3, 25};
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                myArray[i] = randomNumber.Next(20);
+            }
+            Console.WriteLine("Quick Sort - Unsorted Array: " + string.Join(", ", myArray));
+            QuickSort quickSort = new QuickSort();
+            quickSort.Sort(myArray);
             Console.WriteLine("Sorted Array: " + string.Join(", ", myArray));
         }
     }
