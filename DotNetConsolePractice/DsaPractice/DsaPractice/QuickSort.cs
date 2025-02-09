@@ -4,19 +4,12 @@ namespace DsaPractice
 {
     internal class QuickSort
     {
-        void SwapItemsOfArray(int[] items, int index1, int index2)
-        {
-            int tempVal = items[index1];
-            items[index1] = items[index2];
-            items[index2] = tempVal;
-        }
-
         void Sort(int[] array, int lowIndex, int highIndex)
         {
             if (lowIndex >= highIndex) return;
             int pivotIndex = new Random().Next(highIndex - lowIndex) + lowIndex;
             int pivot = array[pivotIndex];
-            SwapItemsOfArray(array, pivotIndex, highIndex);
+            Utils.SwapArrayItems(array, pivotIndex, highIndex);
             int leftPointer = lowIndex;
             int rightPointer = highIndex;
 
@@ -30,9 +23,9 @@ namespace DsaPractice
                 {
                     rightPointer--;
                 }
-                SwapItemsOfArray(array, leftPointer, rightPointer);
+                Utils.SwapArrayItems(array, leftPointer, rightPointer);
             }
-            SwapItemsOfArray(array, leftPointer, highIndex);
+            Utils.SwapArrayItems(array, leftPointer, highIndex);
 
             Sort(array, lowIndex, leftPointer - 1);
             Sort(array, leftPointer + 1, highIndex);

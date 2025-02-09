@@ -2,12 +2,6 @@
 {
     internal class BubbleSort
     {
-        void SwapArrayItems(int[] array, int index1, int index2)
-        {
-            array[index1] += array[index2];
-            array[index2] = array[index1] - array[index2];
-            array[index1] -= array[index2];
-        }
         public void Sort(int[] arrayToSort)
         {
             int arrayLength = arrayToSort.Length;
@@ -19,7 +13,7 @@
                 {
                     if (arrayToSort[j] > arrayToSort[j+1])
                     {
-                        SwapArrayItems(arrayToSort, j, j+1);
+                        Utils.SwapArrayItems(arrayToSort, j, j + 1);
                         isSorted = false;
                     }
                 }

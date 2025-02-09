@@ -7,60 +7,48 @@ namespace DsaPractice
         static void Main(string[] args)
         {
             BubbleSort();
-            InsertionSort();
             QuickSort();
             MergeSort();
+            InsertionSort();
         }
 
         static void BubbleSort()
         {
-            int[] myArray = { 9, 0, -4, 1, 7, 3, 6, 15, 2, 5 };
-            Console.WriteLine("Bubble Sort - Unsorted: " + string.Join(",", myArray));
+            int[] myArray = Utils.GenerateRandomArray(10, 20);
+            Utils.PrintArray("Bubble Sort - Unsorted: ", myArray);
             BubbleSort bubbleSort = new BubbleSort();
             bubbleSort.Sort(myArray);
-            Console.WriteLine("Sorted: " + string.Join(",", myArray));
+            Utils.PrintArray("Bubble Sort - Sorted: ", myArray);
         }
 
         static void InsertionSort()
         {
-            Random randomNumber = new Random();
             int[] myArray = new int[10];
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                myArray[i] = randomNumber.Next(20);
-            }
-            Console.WriteLine("Insertion Sort - Unsorted Array: " + string.Join(", ", myArray));
+            myArray = Utils.GenerateRandomArray(10, 20);
+            Utils.PrintArray("Insertion Sort - Unsorted: ", myArray);
             InsertionSort insertionSort = new InsertionSort();
             insertionSort.Sort(myArray);
-            Console.WriteLine("Sorted Array: " + string.Join(", ", myArray));
+            Utils.PrintArray("Insertion Sort - Sorted: ", myArray);
         }
 
         static void QuickSort()
         {
-            Random randomNumber = new Random();
-            int[] myArray = new int[10]; // {9, 3, 5, 2, 6, 1, 8, 4, 14, 17, 3, 7, 3, 25};
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                myArray[i] = randomNumber.Next(20);
-            }
-            Console.WriteLine("Quick Sort - Unsorted Array: " + string.Join(", ", myArray));
+            int[] myArray = new int[10];
+            myArray = Utils.GenerateRandomArray(10, 20);
+            Utils.PrintArray("Quick Sort - Unsorted: ", myArray);
             QuickSort quickSort = new QuickSort();
             quickSort.Sort(myArray);
-            Console.WriteLine("Sorted Array: " + string.Join(", ", myArray));
+            Utils.PrintArray("Quick Sort - Sorted: ", myArray);
         }
 
         static void MergeSort()
         {
-            Random randomNumber = new Random();
-            int[] myArray = new int[10]; // {9, 3, 5, 2, 6, 1, 8, 4, 14, 17, 3, 7, 3, 25};
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                myArray[i] = randomNumber.Next(20);
-            }
-            Console.WriteLine("Merge Sort - Unsorted Array: " + string.Join(", ", myArray));
+            int[] myArray = new int[10];
+            myArray = Utils.GenerateRandomArray(10, 20);
+            Utils.PrintArray("Merge Sort - Unsorted: ", myArray);
             MergeSort mergeSort = new MergeSort();
             mergeSort.MergeAndSort(myArray);
-            Console.WriteLine("Sorted Array: " + string.Join(", ", myArray));
+            Utils.PrintArray("Merge Sort - Sorted: ", myArray);
         }
     }
 }
