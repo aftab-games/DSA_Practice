@@ -24,6 +24,7 @@ namespace DsaPractice
             int temp = array[index1];
             array[index1] = array[index2];
             array[index2] = temp;
+            //Tuple solution(array[index1], array[index2]) = (array[index2], array[index1]);
         }
     }
 }
