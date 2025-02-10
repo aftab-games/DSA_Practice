@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DsaPractice
 {
@@ -11,7 +7,7 @@ namespace DsaPractice
         public static void Paractice()
         {
             string myString = "Hello Aftab!";
-            Console.WriteLine(myString);
+            Console.WriteLine("Initial String : "+myString);
             ReverseString(myString);
         }
 
@@ -20,7 +16,7 @@ namespace DsaPractice
             string reversedString = string.Empty;
             int length = myString.Length;
             for (int i = length - 1; i >= 0; i--) reversedString += myString[i];
-            Console.WriteLine(reversedString);
+            Console.WriteLine("Reversed String: "+reversedString);
         }
     }
 }
