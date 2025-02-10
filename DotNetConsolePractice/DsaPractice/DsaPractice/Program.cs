@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace DsaPractice
 {
@@ -6,10 +7,13 @@ namespace DsaPractice
     {
         static void Main(string[] args)
         {
+            PracticeString.Paractice();
+            /*
             BubbleSort();
             QuickSort();
             MergeSort();
             InsertionSort();
+            */
         }
 
         static void BubbleSort()
