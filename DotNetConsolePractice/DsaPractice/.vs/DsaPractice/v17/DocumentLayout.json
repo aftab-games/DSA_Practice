@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|solutionrelative:dsapractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|c:\\users\\aftab\\documents\\devfolder\\dsa_practice\\dotnetconsolepractice\\dsapractice\\dsapractice\\practicestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|solutionrelative:dsapractice\\practicestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|c:\\users\\aftab\\documents\\devfolder\\dsa_practice\\dotnetconsolepractice\\dsapractice\\dsapractice\\aarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|solutionrelative:dsapractice\\aarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\dsapractice\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|solutionrelative:dsapractice\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\dsapractice\\practicestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|solutionrelative:dsapractice\\practicestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A850A14-DAF4-4220-ACCD-678DEBA99DC0}|DsaPractice\\DsaPractice.csproj|C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\dsapractice\\insertionsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AArray.cs",
+              "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\AArray.cs",
+              "RelativeDocumentMoniker": "DsaPractice\\AArray.cs",
+              "ToolTip": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\AArray.cs",
+              "RelativeToolTip": "DsaPractice\\AArray.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:31:18.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PracticeString.cs",
               "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\PracticeString.cs",
               "RelativeDocumentMoniker": "DsaPractice\\PracticeString.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "DsaPractice\\PracticeString.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T16:09:20.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T16:09:20.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\Utils.cs",
               "RelativeDocumentMoniker": "DsaPractice\\Utils.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "DsaPractice\\Utils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T16:04:58.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T16:04:58.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MergeSort.cs",
               "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\MergeSort.cs",
               "RelativeDocumentMoniker": "DsaPractice\\MergeSort.cs",
@@ -76,12 +91,11 @@
               "RelativeToolTip": "DsaPractice\\MergeSort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:29:12.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:29:12.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "QuickSort.cs",
               "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\QuickSort.cs",
               "RelativeDocumentMoniker": "DsaPractice\\QuickSort.cs",
@@ -89,12 +103,11 @@
               "RelativeToolTip": "DsaPractice\\QuickSort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:22:00.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:22:00.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InsertionSort.cs",
               "DocumentMoniker": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\InsertionSort.cs",
               "RelativeDocumentMoniker": "DsaPractice\\InsertionSort.cs",
@@ -102,8 +115,7 @@
               "RelativeToolTip": "DsaPractice\\InsertionSort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:56:59.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T14:56:59.058Z"
             },
             {
               "$type": "Document",
@@ -126,7 +138,7 @@
               "RelativeDocumentMoniker": "DsaPractice\\Program.cs",
               "ToolTip": "C:\\Users\\Aftab\\Documents\\DevFolder\\DSA_Practice\\DotNetConsolePractice\\DsaPractice\\DsaPractice\\Program.cs",
               "RelativeToolTip": "DsaPractice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T17:08:03.85Z",
               "EditorCaption": ""

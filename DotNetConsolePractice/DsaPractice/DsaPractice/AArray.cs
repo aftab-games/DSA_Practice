@@ -30,6 +30,29 @@ namespace DsaPractice
             itemCount++;
         }
 
+        public void RemoveAt(int index)
+        {
+            if(index < 0 || index >= itemCount)
+            {
+                throw new ArgumentOutOfRangeException("index");
+            }
+            for(int i = index;i < itemCount;i++)
+            {
+                items[i] = items[i+1];
+            }
+            itemCount--;
+        }
+
+        public int IndexOf(int item)
+        {
+            if(itemCount == 0) 
+                return -1;
+            for(int i = 0; i < itemCount; i++) 
+                if (items[i] == item) 
+                    return i;
+            return -1;
+        }
+
         public void PrintAArray()
         {
             for (int i = 0; i < itemCount; i++)
