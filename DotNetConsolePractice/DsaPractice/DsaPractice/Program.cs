@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace DsaPractice
 {
@@ -7,13 +9,23 @@ namespace DsaPractice
     {
         static void Main(string[] args)
         {
-            PracticeString.Paractice();
-            /*
-            BubbleSort();
-            QuickSort();
-            MergeSort();
-            InsertionSort();
-            */
+            AArray array = new AArray(3);
+            array.Insert(5);
+            array.Insert(2);
+            array.Insert(9);
+            array.Insert(7);
+            array.PrintAArray();
+            Console.WriteLine("Removing at 1");
+            array.RemoveAt(1);
+            array.PrintAArray();
+            Console.WriteLine("Index of 7");
+            Console.WriteLine(array.IndexOf(7));
+            //PracticeString.Paractice();
+            //BubbleSort();
+            //QuickSort();
+            //MergeSort();
+            //InsertionSort();
+
         }
 
         static void BubbleSort()
