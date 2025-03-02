@@ -7,13 +7,19 @@ namespace DsaPractice
     {
         static void Main(string[] args)
         {
-            PracticeString.Paractice();
-            /*
-            BubbleSort();
-            QuickSort();
-            MergeSort();
-            InsertionSort();
-            */
+            AArray array = new AArray(3);
+            array.Insert(5);
+            array.Insert(2);
+            array.Insert(9);
+            array.Insert(7);
+
+            array.PrintAArray();
+            //PracticeString.Paractice();
+            //BubbleSort();
+            //QuickSort();
+            //MergeSort();
+            //InsertionSort();
+            
         }
 
         static void BubbleSort()
