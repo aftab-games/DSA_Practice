@@ -9,6 +9,14 @@ namespace DsaPractice
     {
         static void Main(string[] args)
         {
+            var list  = new LinkedList();
+            list.AddLast(50);
+            list.AddLast(60);
+            list.AddLast(70);
+            list.AddFirst(20);
+            list.IndexOf(60);
+
+            /*
             AArray array = new AArray(3);
             array.Insert(5);
             array.Insert(2);
@@ -20,11 +28,14 @@ namespace DsaPractice
             array.PrintAArray();
             Console.WriteLine("Index of 7");
             Console.WriteLine(array.IndexOf(7));
+            */
             //PracticeString.Paractice();
+            /*
             //BubbleSort();
             //QuickSort();
             //MergeSort();
             //InsertionSort();
+            */
 
         }
 
