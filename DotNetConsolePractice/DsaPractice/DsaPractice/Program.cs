@@ -9,13 +9,24 @@ namespace DsaPractice
     {
         static void Main(string[] args)
         {
+            Recursion recursion = new Recursion();
+            //Console.WriteLine("Fibonacci Number: "+ recursion.CallFibonacciNumber(10));
+            //recursion.CallFibonacciNumber(10);
+            
+            int n = 50;
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(recursion.CallFibonacciNumber(i) + " ");
+            }
+            
+            /*
             var list  = new LinkedList();
             list.AddLast(50);
             list.AddLast(60);
             list.AddLast(70);
             list.AddFirst(20);
             list.IndexOf(60);
-
+            */
             /*
             AArray array = new AArray(3);
             array.Insert(5);
